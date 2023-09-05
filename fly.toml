@@ -1,6 +1,6 @@
 # fly.toml file generated for grafana-agent-dev on 2022-04-06T13:07:15-07:00
 
-app = "my-app-name"
+app = "spydefiprom"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -13,7 +13,7 @@ processes = []
   auto_rollback = true
 
 [http_service]
- internal_port = 8080
+ internal_port = 12345
  force_https = true
  auto_stop_machines = false
  auto_start_machines = true
